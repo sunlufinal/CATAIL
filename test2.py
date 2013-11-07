@@ -1,4 +1,6 @@
-import Node.py
+def test(a):
+	a-=1
 
-a=Node();
-a.print_name();
+v=5
+test(v)
+print(v)
