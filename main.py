@@ -19,10 +19,12 @@ from action import *
 
 ###global initialization
 world=nx.Graph()
-next_id=1
 list_of_node=[]
 
-tmp=Person(next_id)
-next_id+=1
+tmp=Person("me")
 list_of_node.append(tmp)
+
+tmp=Person("Alice")
+list_of_node.append(tmp)
+
 
