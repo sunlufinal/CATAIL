@@ -1,7 +1,9 @@
 The relationships in the real world implicitly define a graph.
+Various psychological model can be implemented
 
 programming logic in Python:
 	1.every node has a global unique ID
+
 programming definition in Python:
 	1.the global unique id of each node always starts from 1. 0 is reserved. me is not treated different from other nodes in terms of IDs. -1 means no ID has been assigned to this node.
 	2.the meta class Node will be never initialized, since it is abstract concept
