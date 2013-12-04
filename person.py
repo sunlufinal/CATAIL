@@ -3,7 +3,7 @@ from node import Node
 class Person(Node):
 
 	#natural properties
-	gender=1
+	_gender='female'
 
 	#character properties (color model)
 	#activity=1.0	#ranges in [0.0,1.0]
@@ -18,6 +18,10 @@ class Person(Node):
 	_attack_value=0
 	_defense_value=0
 	_is_alive=True
+
+	def __init__(self,name,gender):
+		super().__init__(name)
+		self._gender=gender
 
 	def being_attacked(self,damage):
 		if(damage<0):

@@ -21,10 +21,10 @@ from action import *
 world=nx.Graph()
 list_of_node=[]
 
-tmp=Person("me")
+tmp=Person("me",'male')
 list_of_node.append(tmp)
 
-tmp=Person("Alice")
+tmp=Person("Alice",'female')
 list_of_node.append(tmp)
 
 
